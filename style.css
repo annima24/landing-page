@@ -1,0 +1,35 @@
+body    {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header  {
+        
+    display: flex;
+    background-color: #1F2937;
+}
+
+header h2   {
+    margin-left: 36px;
+    font-size: 24px;
+    color: #f9faf8
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px; 
+    color: #f9faf8
+}
+
+li  {
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;       
+}
+
+.header-links   {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 15px;
+    margin-right: 24px;
+}
