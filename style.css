@@ -1,10 +1,10 @@
 body    {
     margin: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
 }
-
-header  {
-        
+/*--------------HEADER----------------------*/
+header  {        
     display: flex;
     background-color: #1F2937;
 }
@@ -15,15 +15,14 @@ header h2   {
     color: #f9faf8
 }
 
-a {
+header a {
     text-decoration: none;
     font-size: 18px; 
-    color: #f9faf8
+    color: #e5e7eb
 }
 
 li  {
-    list-style: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;       
+    list-style: none;  
 }
 
 .header-links   {
@@ -33,3 +32,93 @@ li  {
     gap: 15px;
     margin-right: 24px;
 }
+
+/*----------------HERO---------------------------------*/
+
+.hero   {
+    display: flex;
+    padding: 100px;
+    background-color: #1F2937;
+}
+
+.hero-left  {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.hero-right  {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image {
+    flex: 0 0 100px;
+    padding: 60px 120px;
+    background-color: darkgray;
+}
+
+.dark-background    {
+    background-color: #1F2937;
+}
+
+.hero-left h1 {
+    color: #f9faf8;
+    margin: 0px;
+}
+
+.hero-left p  {
+    color: #e5e7eb;
+    margin: 5px;
+}
+
+.hero-left button   {
+background-color: #3882f6;
+border: none;
+border-radius: 5px;
+font-size: 18px;
+color: #f9faf8;
+padding: 0px 20px;
+}
+
+/*------------------INFORMATION CARDS-----------------*/
+
+.information-cards h2   {
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.cards-container    {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.card   {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.infographic  {
+    border: 2px solid #3882f6;
+    border-radius: 15px;
+    height: 120px;
+    width: 100px;
+}
+
+.card p {
+    font-size: 12px;
+    color: rgb(112, 110, 110);
+    width: 100px;
+    text-align: center;
+}
+
+/*-------------------------TESTIMONIAL----------------------*/
