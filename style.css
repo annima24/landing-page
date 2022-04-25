@@ -59,7 +59,7 @@ li  {
 .hero-image {
     flex: 0 0 100px;
     padding: 60px 120px;
-    background-color: darkgray;
+    background-color: lightgray;
 }
 
 .dark-background    {
@@ -98,6 +98,7 @@ padding: 0px 20px;
     display: flex;
     gap: 50px;
     justify-content: center;
+    padding-bottom: 50px;
 }
 
 .card   {
@@ -122,3 +123,74 @@ padding: 0px 20px;
 }
 
 /*-------------------------TESTIMONIAL----------------------*/
+
+.testimonial    {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:100px;
+    background-color: lightgray;
+}
+
+.testimonial p {
+    font-size: 24px;
+}
+
+.testimonial h3 {    
+  align-self: flex-end;
+
+}
+
+/*--------------------------CALL TO ACTION----------------*/
+
+.cta-container  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 150px;
+    background-color: #3882f6;
+    border-radius: 15px;
+    padding: 10px 30px;
+    color: #f9faf8;
+}
+
+.cta-left   {
+    flex: 2;
+}
+
+.cta-right   {
+    flex: 1;
+}
+
+.cta-left h2  {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.cta-left p  {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.cta-button {
+    background-color: #3882f6;
+    border:2px solid white;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 0px 20px;
+    color: #f9faf8;
+}
+
+/*----------------------FOOTER--------------------*/
+
+footer  {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    font-size: 18px;
+    color: #f9faf8;
+}
